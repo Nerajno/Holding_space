@@ -35,7 +35,7 @@ module.exports = function GitHubCalendar (container, username, options) {
         var div = document.createElement("div");
         div.innerHTML = body;
         var cal = div.querySelector("#contributions-calendar");
-        cal.querySelector(".left.text-muted").innerHTML = options.summary_text;
+        // cal.querySelector(".left.text-muted").innerHTML = options.summary_text;
         container.innerHTML = cal.innerHTML;
     });
 };

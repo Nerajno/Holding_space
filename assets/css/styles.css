@@ -543,3 +543,9 @@ iframe {
     width: 1360px;
   }
 }
+
+
+/* My tinkering  */
+#aboutMe{ /*about me div */
+  line-height: 1.6;
+}
